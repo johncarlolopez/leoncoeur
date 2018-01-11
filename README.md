@@ -1,5 +1,7 @@
 # README
 
+See [Notes](https://github.com/johncarlolopez/leoncoeur/blob/master/notes.md)
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 

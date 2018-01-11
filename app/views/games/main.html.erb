@@ -1,0 +1,12 @@
+<p>This is the main game</p>
+<% 49.times {|num| %>
+  <% if num % 7 == 0 || num == 0 %>
+    <div class = 'clearfix'>
+      <%= image_tag("terrain/grass1.jpg", :alt => "grass") %>
+  <% elsif num % 7 == 6  %>
+    <%= image_tag("terrain/grass1.jpg", :alt => "grass") %>
+    </div>
+  <% else %>
+    <%= image_tag("terrain/grass1.jpg", :alt => "grass") %>
+  <% end %>
+<% } %>

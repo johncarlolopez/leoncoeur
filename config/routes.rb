@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-  get '/' => 'main#index'
+  root 'games#welcome'
+
+  get '/main' => 'games#main', as: 'main'
+
+
+  # get 'pictures/:id' => 'pictures#show' as “product”
 end
